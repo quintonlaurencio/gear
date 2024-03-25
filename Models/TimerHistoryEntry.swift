@@ -1,8 +1,13 @@
-//
-//  TimerHistoryEntry.swift
-//  Gear
-//
-//  Created by Quinton Laurencio on 2/6/24.
-//
-
 import Foundation
+
+struct TimerHistoryEntry: Identifiable, Codable {
+    let id: UUID
+    var timerStartTime: Date?
+    var timerEndTime: Date
+
+    init(timerStartTime: Date? = nil, timerEndTime: Date) {
+        self.id = UUID()
+        self.timerStartTime = timerStartTime
+        self.timerEndTime = timerEndTime
+    }
+}

@@ -11,7 +11,7 @@ import SwiftUI
 struct GearApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GearUIView(viewModel: GearViewModel())
         }
     }
 }

@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		608A224B2BB12514001790D9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608A224A2BB12514001790D9 /* AuthenticationViewModel.swift */; };
+		608A224D2BB1252F001790D9 /* GoogleSignInAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608A224C2BB1252F001790D9 /* GoogleSignInAuthenticator.swift */; };
+		60C950552B72CCDA004EF580 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C950542B72CCDA004EF580 /* NotificationService.swift */; };
+		60C950572B72D1BD004EF580 /* TimerHistoryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C950562B72D1BD004EF580 /* TimerHistoryEntry.swift */; };
+		60C950592B72D2B6004EF580 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C950582B72D2B6004EF580 /* UtilityFunctions.swift */; };
+		60C9505B2B72D36F004EF580 /* AppLifecycleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C9505A2B72D36F004EF580 /* AppLifecycleHandler.swift */; };
 		60E5AD722B6ED62800A5643C /* GearApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E5AD712B6ED62800A5643C /* GearApp.swift */; };
-		60E5AD742B6ED62800A5643C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E5AD732B6ED62800A5643C /* ContentView.swift */; };
 		60E5AD762B6ED62A00A5643C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E5AD752B6ED62A00A5643C /* Assets.xcassets */; };
 		60E5AD792B6ED62A00A5643C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E5AD782B6ED62A00A5643C /* Preview Assets.xcassets */; };
+		60E5AD872B6EFDBE00A5643C /* GearUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E5AD862B6EFDBE00A5643C /* GearUIView.swift */; };
+		60E5AD892B6EFFAB00A5643C /* GearViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E5AD882B6EFFAB00A5643C /* GearViewModel.swift */; };
+		DD9304A305810BE323346766 /* Pods_Gear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA189AA02DA8375EEA7F742 /* Pods_Gear.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		608500C52B76BA3E0072346B /* Gear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gear-Info.plist"; sourceTree = "<group>"; };
+		608A224A2BB12514001790D9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationViewModel.swift; path = ../../../../../../Documents/Python/Projects/Gear/ViewModels/AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		608A224C2BB1252F001790D9 /* GoogleSignInAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleSignInAuthenticator.swift; path = ../../../../../../Documents/Python/Projects/Gear/Services/GoogleSignInAuthenticator.swift; sourceTree = "<group>"; };
+		60C950542B72CCDA004EF580 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		60C950562B72D1BD004EF580 /* TimerHistoryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerHistoryEntry.swift; sourceTree = "<group>"; };
+		60C950582B72D2B6004EF580 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		60C9505A2B72D36F004EF580 /* AppLifecycleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLifecycleHandler.swift; sourceTree = "<group>"; };
 		60E5AD6E2B6ED62800A5643C /* Gear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E5AD712B6ED62800A5643C /* GearApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearApp.swift; sourceTree = "<group>"; };
-		60E5AD732B6ED62800A5643C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		60E5AD752B6ED62A00A5643C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60E5AD782B6ED62A00A5643C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60E5AD862B6EFDBE00A5643C /* GearUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearUIView.swift; sourceTree = "<group>"; };
+		60E5AD882B6EFFAB00A5643C /* GearViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearViewModel.swift; sourceTree = "<group>"; };
+		6AA189AA02DA8375EEA7F742 /* Pods_Gear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7924337CB03AF8A0083E2759 /* Pods-Gear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gear.debug.xcconfig"; path = "Target Support Files/Pods-Gear/Pods-Gear.debug.xcconfig"; sourceTree = "<group>"; };
+		E82BAA97127CDB39ED3D6627 /* Pods-Gear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gear.release.xcconfig"; path = "Target Support Files/Pods-Gear/Pods-Gear.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +45,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9304A305810BE323346766 /* Pods_Gear.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ACBF8A070C2A8CF6503DB46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7924337CB03AF8A0083E2759 /* Pods-Gear.debug.xcconfig */,
+				E82BAA97127CDB39ED3D6627 /* Pods-Gear.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		60E5AD652B6ED62800A5643C = {
 			isa = PBXGroup;
 			children = (
-				60E5AD702B6ED62800A5643C /* Gear */,
+				608500C52B76BA3E0072346B /* Gear-Info.plist */,
+				60E5AD852B6EFD5300A5643C /* App */,
+				60E5AD832B6EFD3D00A5643C /* Utilities */,
+				60E5AD822B6EFD3400A5643C /* Services */,
+				60E5AD812B6EFD1A00A5643C /* ViewModels */,
+				60E5AD802B6EFD0D00A5643C /* Models */,
+				60E5AD7F2B6EFCFA00A5643C /* Views */,
+				60E5AD772B6ED62A00A5643C /* PreviewContent */,
 				60E5AD6F2B6ED62800A5643C /* Products */,
+				1ACBF8A070C2A8CF6503DB46 /* Pods */,
+				74DEA653453EECC279945B57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,23 +86,72 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60E5AD702B6ED62800A5643C /* Gear */ = {
+		60E5AD772B6ED62A00A5643C /* PreviewContent */ = {
+			isa = PBXGroup;
+			children = (
+				60E5AD752B6ED62A00A5643C /* Assets.xcassets */,
+				60E5AD782B6ED62A00A5643C /* Preview Assets.xcassets */,
+			);
+			path = PreviewContent;
+			sourceTree = "<group>";
+		};
+		60E5AD7F2B6EFCFA00A5643C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60E5AD862B6EFDBE00A5643C /* GearUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60E5AD802B6EFD0D00A5643C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60C950562B72D1BD004EF580 /* TimerHistoryEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60E5AD812B6EFD1A00A5643C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				608A224A2BB12514001790D9 /* AuthenticationViewModel.swift */,
+				60E5AD882B6EFFAB00A5643C /* GearViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		60E5AD822B6EFD3400A5643C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				608A224C2BB1252F001790D9 /* GoogleSignInAuthenticator.swift */,
+				60C950542B72CCDA004EF580 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		60E5AD832B6EFD3D00A5643C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				60C950582B72D2B6004EF580 /* UtilityFunctions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		60E5AD852B6EFD5300A5643C /* App */ = {
 			isa = PBXGroup;
 			children = (
 				60E5AD712B6ED62800A5643C /* GearApp.swift */,
-				60E5AD732B6ED62800A5643C /* ContentView.swift */,
-				60E5AD752B6ED62A00A5643C /* Assets.xcassets */,
-				60E5AD772B6ED62A00A5643C /* Preview Content */,
+				60C9505A2B72D36F004EF580 /* AppLifecycleHandler.swift */,
 			);
-			path = Gear;
+			path = App;
 			sourceTree = "<group>";
 		};
-		60E5AD772B6ED62A00A5643C /* Preview Content */ = {
+		74DEA653453EECC279945B57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				60E5AD782B6ED62A00A5643C /* Preview Assets.xcassets */,
+				6AA189AA02DA8375EEA7F742 /* Pods_Gear.framework */,
 			);
-			path = "Preview Content";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60E5AD7C2B6ED62A00A5643C /* Build configuration list for PBXNativeTarget "Gear" */;
 			buildPhases = (
+				624EFDEFAFA085EE629A23CB /* [CP] Check Pods Manifest.lock */,
 				60E5AD6A2B6ED62800A5643C /* Sources */,
 				60E5AD6B2B6ED62800A5643C /* Frameworks */,
 				60E5AD6C2B6ED62800A5643C /* Resources */,
+				EE6EB5520C6960EBC48DB147 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +221,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		624EFDEFAFA085EE629A23CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gear-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6EB5520C6960EBC48DB147 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gear/Pods-Gear-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gear/Pods-Gear-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gear/Pods-Gear-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60E5AD6A2B6ED62800A5643C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60E5AD742B6ED62800A5643C /* ContentView.swift in Sources */,
+				60C950592B72D2B6004EF580 /* UtilityFunctions.swift in Sources */,
+				608A224D2BB1252F001790D9 /* GoogleSignInAuthenticator.swift in Sources */,
+				60C950552B72CCDA004EF580 /* NotificationService.swift in Sources */,
 				60E5AD722B6ED62800A5643C /* GearApp.swift in Sources */,
+				60E5AD892B6EFFAB00A5643C /* GearViewModel.swift in Sources */,
+				60E5AD872B6EFDBE00A5643C /* GearUIView.swift in Sources */,
+				608A224B2BB12514001790D9 /* AuthenticationViewModel.swift in Sources */,
+				60C9505B2B72D36F004EF580 /* AppLifecycleHandler.swift in Sources */,
+				60C950572B72D1BD004EF580 /* TimerHistoryEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,14 +404,17 @@
 		};
 		60E5AD7D2B6ED62A00A5643C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7924337CB03AF8A0083E2759 /* Pods-Gear.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gear/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PreviewContent\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gear-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,14 +435,17 @@
 		};
 		60E5AD7E2B6ED62A00A5643C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82BAA97127CDB39ED3D6627 /* Pods-Gear.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gear/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PreviewContent\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gear-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
