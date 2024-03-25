@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		608A224B2BB12514001790D9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608A224A2BB12514001790D9 /* AuthenticationViewModel.swift */; };
-		608A224D2BB1252F001790D9 /* GoogleSignInAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608A224C2BB1252F001790D9 /* GoogleSignInAuthenticator.swift */; };
+		6060AB662BB13FEE00A8C5F3 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060AB652BB13FEE00A8C5F3 /* AuthenticationViewModel.swift */; };
 		60C950552B72CCDA004EF580 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C950542B72CCDA004EF580 /* NotificationService.swift */; };
 		60C950572B72D1BD004EF580 /* TimerHistoryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C950562B72D1BD004EF580 /* TimerHistoryEntry.swift */; };
 		60C950592B72D2B6004EF580 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C950582B72D2B6004EF580 /* UtilityFunctions.swift */; };
@@ -18,13 +17,13 @@
 		60E5AD792B6ED62A00A5643C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E5AD782B6ED62A00A5643C /* Preview Assets.xcassets */; };
 		60E5AD872B6EFDBE00A5643C /* GearUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E5AD862B6EFDBE00A5643C /* GearUIView.swift */; };
 		60E5AD892B6EFFAB00A5643C /* GearViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E5AD882B6EFFAB00A5643C /* GearViewModel.swift */; };
+		60F4C59C2BB13F0F009456F7 /* GoogleSignInAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4C59B2BB13F0F009456F7 /* GoogleSignInAuthenticator.swift */; };
 		DD9304A305810BE323346766 /* Pods_Gear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA189AA02DA8375EEA7F742 /* Pods_Gear.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6060AB652BB13FEE00A8C5F3 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		608500C52B76BA3E0072346B /* Gear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gear-Info.plist"; sourceTree = "<group>"; };
-		608A224A2BB12514001790D9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationViewModel.swift; path = ../../../../../../Documents/Python/Projects/Gear/ViewModels/AuthenticationViewModel.swift; sourceTree = "<group>"; };
-		608A224C2BB1252F001790D9 /* GoogleSignInAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleSignInAuthenticator.swift; path = ../../../../../../Documents/Python/Projects/Gear/Services/GoogleSignInAuthenticator.swift; sourceTree = "<group>"; };
 		60C950542B72CCDA004EF580 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		60C950562B72D1BD004EF580 /* TimerHistoryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerHistoryEntry.swift; sourceTree = "<group>"; };
 		60C950582B72D2B6004EF580 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
@@ -35,6 +34,7 @@
 		60E5AD782B6ED62A00A5643C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		60E5AD862B6EFDBE00A5643C /* GearUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearUIView.swift; sourceTree = "<group>"; };
 		60E5AD882B6EFFAB00A5643C /* GearViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearViewModel.swift; sourceTree = "<group>"; };
+		60F4C59B2BB13F0F009456F7 /* GoogleSignInAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GoogleSignInAuthenticator.swift; path = /Users/quintonlaurencio/Documents/Python/Projects/gear/Services/GoogleSignInAuthenticator.swift; sourceTree = "<absolute>"; };
 		6AA189AA02DA8375EEA7F742 /* Pods_Gear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7924337CB03AF8A0083E2759 /* Pods-Gear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gear.debug.xcconfig"; path = "Target Support Files/Pods-Gear/Pods-Gear.debug.xcconfig"; sourceTree = "<group>"; };
 		E82BAA97127CDB39ED3D6627 /* Pods-Gear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gear.release.xcconfig"; path = "Target Support Files/Pods-Gear/Pods-Gear.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 		60E5AD812B6EFD1A00A5643C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				608A224A2BB12514001790D9 /* AuthenticationViewModel.swift */,
+				6060AB652BB13FEE00A8C5F3 /* AuthenticationViewModel.swift */,
 				60E5AD882B6EFFAB00A5643C /* GearViewModel.swift */,
 			);
 			path = ViewModels;
@@ -123,7 +123,7 @@
 		60E5AD822B6EFD3400A5643C /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				608A224C2BB1252F001790D9 /* GoogleSignInAuthenticator.swift */,
+				60F4C59B2BB13F0F009456F7 /* GoogleSignInAuthenticator.swift */,
 				60C950542B72CCDA004EF580 /* NotificationService.swift */,
 			);
 			path = Services;
@@ -269,13 +269,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C950592B72D2B6004EF580 /* UtilityFunctions.swift in Sources */,
-				608A224D2BB1252F001790D9 /* GoogleSignInAuthenticator.swift in Sources */,
 				60C950552B72CCDA004EF580 /* NotificationService.swift in Sources */,
 				60E5AD722B6ED62800A5643C /* GearApp.swift in Sources */,
 				60E5AD892B6EFFAB00A5643C /* GearViewModel.swift in Sources */,
 				60E5AD872B6EFDBE00A5643C /* GearUIView.swift in Sources */,
-				608A224B2BB12514001790D9 /* AuthenticationViewModel.swift in Sources */,
+				6060AB662BB13FEE00A8C5F3 /* AuthenticationViewModel.swift in Sources */,
 				60C9505B2B72D36F004EF580 /* AppLifecycleHandler.swift in Sources */,
+				60F4C59C2BB13F0F009456F7 /* GoogleSignInAuthenticator.swift in Sources */,
 				60C950572B72D1BD004EF580 /* TimerHistoryEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
